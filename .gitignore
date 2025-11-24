@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.streamlit/secrets.toml
+
+# FFmpeg builds and binaries
+Dependencies/ffmpeg-*/
+*.exe
+Dependencies/*.exe
+
+# Project-specific ignores
+Generated_Video/
+Backup/
+Pipeline.txt

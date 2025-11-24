@@ -1,0 +1,26 @@
+[project]
+name = "access-to-veo3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.40.64",
+    "botocore>=1.40.64",
+    "dotenv>=0.9.9",
+    "fastapi>=0.120.4",
+    "google-genai>=1.46.0",
+    "google-generativeai>=0.8.5",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "pillow>=11.3.0",
+    "plotly>=6.4.0",
+    "pydantic>=2.12.3",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.5",
+    "streamlit>=1.50.0",
+    "typing-extensions>=4.15.0",
+    "uvicorn[standard]>=0.38.0",
+]
